@@ -2,24 +2,47 @@
 
 Modern Kerala Cuisine.
 
-A premium restaurant website concept for Chef Jomon's #VEEDU in Hornchurch, Essex, built around the brand's identity:
+A premium, responsive restaurant website concept for Chef Jomon's **VEEDU** in Hornchurch, Essex, built around the brand identity:
 
 **V**ibrant · **E**arthy · **E**nticing · **D**electable · **U**mami
 
-## Direction
+## Included
 
-- Premium Kerala / Malabar visual identity
-- Deep green and gold palette
+- Premium Kerala / Malabar editorial visual direction
 - Malayalam + English brand expression
-- Mobile-first restaurant experience
-- Story, philosophy, menu showcase, gallery and launch CTA
-- SEO, sitemap, robots.txt and branded 404 foundations
-- Current site and Instagram linked without inventing reservation/contact details
+- Responsive mobile-first layout
+- Accessible mobile navigation and cuisine tabs
+- Restaurant story and brand philosophy
+- Menu preview with clearly labelled placeholder content
+- Chef Jomon profile section
+- Gallery / atmosphere concept section
+- Private dining & events enquiry path
+- Launch / reservations CTA structure
+- SEO metadata and Restaurant structured data
+- Canonical URL, robots.txt and sitemap.xml
+- Branded 404 page and favicon
+- Reduced-motion support and keyboard-friendly interactions
 
-## Important
+## Deployment
 
-The food photography and menu copy in the concept are placeholders until VEEDU supplies approved assets and the confirmed menu. Do not present the demo content as the final restaurant menu.
+This is a static HTML/CSS/JavaScript site and is suitable for Vercel, Netlify, GitHub Pages or any standard static host.
 
-## Status
+### Vercel
 
-Concept build in progress. Next priority: replace concept imagery with approved VEEDU assets, add the confirmed menu, real opening details, reservation provider, address/map, social links and final legal pages.
+1. Import the `venugopalc80/Veedu` repository into Vercel.
+2. Framework preset: **Other** (or leave Vercel to detect the static site).
+3. Build command: **None**.
+4. Output directory: **`.`** / repository root.
+5. Deploy.
+
+The production domain is intended to be `https://www.veedu.co.uk/` once DNS is connected.
+
+## Before launch
+
+Replace the temporary food/interior photography with approved VEEDU photography, replace menu placeholder copy with the confirmed menu and dietary information, and add the confirmed opening date, opening hours, full address, reservation provider and final legal/privacy content.
+
+Do not publish placeholder menu items, prices, testimonials or unconfirmed contact details as if they were final VEEDU information.
+
+## Current external assets
+
+The Chef Jomon editorial image is referenced from Chef Jomon's official website. Cuisine and atmosphere images are temporary Unsplash creative-direction placeholders and should be replaced before launch.
