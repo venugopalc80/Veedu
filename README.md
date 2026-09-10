@@ -2,7 +2,7 @@
 
 Modern Kerala Cuisine.
 
-A premium restaurant website concept for VEEDU, inspired by the brand's identity:
+A premium restaurant website concept for Chef Jomon's #VEEDU in Hornchurch, Essex, built around the brand's identity:
 
 **V**ibrant · **E**arthy · **E**nticing · **D**electable · **U**mami
 
@@ -12,9 +12,14 @@ A premium restaurant website concept for VEEDU, inspired by the brand's identity
 - Deep green and gold palette
 - Malayalam + English brand expression
 - Mobile-first restaurant experience
-- Menu, story, gallery, reservations and location
-- Launch-ready SEO and accessibility foundations
+- Story, philosophy, menu showcase, gallery and launch CTA
+- SEO, sitemap, robots.txt and branded 404 foundations
+- Current site and Instagram linked without inventing reservation/contact details
+
+## Important
+
+The food photography and menu copy in the concept are placeholders until VEEDU supplies approved assets and the confirmed menu. Do not present the demo content as the final restaurant menu.
 
 ## Status
 
-Initial project setup.
+Concept build in progress. Next priority: replace concept imagery with approved VEEDU assets, add the confirmed menu, real opening details, reservation provider, address/map, social links and final legal pages.
