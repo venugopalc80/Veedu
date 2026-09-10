@@ -1,0 +1,36 @@
+/* Final production polish: loaded after the core stylesheet. */
+.private-dining{background:#0b2a1d;color:var(--cream);border-top:1px solid var(--line)}
+.private-dining .section-label{color:#a8ad9f}
+.private-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:9vw;align-items:center}
+.private-grid h2{font:500 clamp(48px,6vw,88px)/.88 var(--serif);margin:0 0 28px}
+.private-grid h2 em{font-style:italic;color:var(--gold-soft)}
+.private-grid>div:first-child>p:not(.eyebrow){max-width:560px;color:#aeb5a7;font-size:15px;margin:0 0 30px}
+.enquiry-card{padding:38px;border:1px solid var(--line);background:rgba(6,29,19,.55);min-height:250px;display:flex;flex-direction:column;justify-content:center}
+.enquiry-card>span{font-size:9px;letter-spacing:.2em;color:var(--gold);text-transform:uppercase}
+.enquiry-card strong{font:500 42px var(--serif);color:var(--cream);margin:22px 0 8px}
+.enquiry-card p{margin:0 0 22px;color:#b6bcae;font-size:13px}
+.enquiry-card small{color:#7f8a7d;font-size:11px;line-height:1.7}
+.coming-card>span{display:block;color:var(--gold);font-size:9px;letter-spacing:.2em;margin-bottom:18px}
+.coming-card h3{margin-bottom:16px}
+.menu-panel[hidden]{display:none}
+.menu-panel{margin:0 auto;width:100%}
+.menu-tab.active{background:var(--gold);border-color:var(--gold);color:#07170f}
+img{max-width:100%;height:auto}
+@media(max-width:800px){
+  .private-grid{grid-template-columns:1fr;gap:45px}
+  .private-grid h2{font-size:clamp(46px,13vw,68px)}
+  .enquiry-card{min-height:220px;padding:28px}
+  .enquiry-card strong{font-size:36px}
+  .launch-bar p{line-height:1.5}
+  .hero{min-height:92svh}
+  .hero-copy{padding-bottom:100px}
+  .footer-brand{align-items:flex-start;flex-wrap:wrap}
+}
+@media(max-width:420px){
+  .announcement{padding:8px 12px;font-size:9px;letter-spacing:.13em}
+  .section-pad,.values,.social-cta{padding-left:5vw;padding-right:5vw}
+  .button{padding:13px 17px;font-size:10px}
+  .hero-intro{font-size:14px}
+  .dish-large{min-height:480px}
+  .footer-links{font-size:10px}
+}
