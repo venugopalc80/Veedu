@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://veedu.co.uk/</loc>
-  </url>
+  <url><loc>https://www.veedu.co.uk/</loc></url>
+  <url><loc>https://www.veedu.co.uk/our-story.html</loc></url>
+  <url><loc>https://www.veedu.co.uk/menu.html</loc></url>
+  <url><loc>https://www.veedu.co.uk/chef-jomon.html</loc></url>
+  <url><loc>https://www.veedu.co.uk/gallery.html</loc></url>
+  <url><loc>https://www.veedu.co.uk/private-dining.html</loc></url>
+  <url><loc>https://www.veedu.co.uk/reservations.html</loc></url>
+  <url><loc>https://www.veedu.co.uk/contact.html</loc></url>
+  <url><loc>https://www.veedu.co.uk/faq.html</loc></url>
 </urlset>
