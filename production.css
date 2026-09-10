@@ -1,21 +1,47 @@
 /* Final production polish: loaded after the core stylesheet. */
-.private-dining{background:#0b2a1d;color:var(--cream);border-top:1px solid var(--line)}
-.private-dining .section-label{color:#a8ad9f}
+.private-dining{background:#24231e;color:var(--cream);border-top:1px solid var(--line)}
+.private-dining .section-label{color:#aaa69a}
 .private-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:9vw;align-items:center}
 .private-grid h2{font:500 clamp(48px,6vw,88px)/.88 var(--serif);margin:0 0 28px}
 .private-grid h2 em{font-style:italic;color:var(--gold-soft)}
-.private-grid>div:first-child>p:not(.eyebrow){max-width:560px;color:#aeb5a7;font-size:15px;margin:0 0 30px}
-.enquiry-card{padding:38px;border:1px solid var(--line);background:rgba(6,29,19,.55);min-height:250px;display:flex;flex-direction:column;justify-content:center}
+.private-grid>div:first-child>p:not(.eyebrow){max-width:560px;color:#b9b5a9;font-size:15px;margin:0 0 30px}
+.enquiry-card{padding:38px;border:1px solid var(--line);background:rgba(20,19,16,.62);min-height:250px;display:flex;flex-direction:column;justify-content:center}
 .enquiry-card>span{font-size:9px;letter-spacing:.2em;color:var(--gold);text-transform:uppercase}
 .enquiry-card strong{font:500 42px var(--serif);color:var(--cream);margin:22px 0 8px}
-.enquiry-card p{margin:0 0 22px;color:#b6bcae;font-size:13px}
-.enquiry-card small{color:#7f8a7d;font-size:11px;line-height:1.7}
+.enquiry-card p{margin:0 0 22px;color:#bdb9ae;font-size:13px}
+.enquiry-card small{color:#89867d;font-size:11px;line-height:1.7}
 .coming-card>span{display:block;color:var(--gold);font-size:9px;letter-spacing:.2em;margin-bottom:18px}
 .coming-card h3{margin-bottom:16px}
 .menu-panel[hidden]{display:none}
 .menu-panel{margin:0 auto;width:100%}
-.menu-tab.active{background:var(--gold);border-color:var(--gold);color:#07170f}
+.menu-tab.active{background:var(--gold);border-color:var(--gold);color:#17150f}
 img{max-width:100%;height:auto}
+
+/* VEEDU premium palette: charcoal + Kerala cream + antique gold, with botanical green as a restrained accent. */
+:root{--green:#171612;--green-2:#24231e;--gold:#b89445;--gold-soft:#dcc98e;--cream:#f3efe5;--ink:#1c1b17;--muted:#a6a296;--line:rgba(184,148,69,.28)}
+body{background:var(--green)}
+.announcement{background:#100f0d;color:var(--gold-soft)}
+.site-header.scrolled{background:rgba(16,15,13,.92);border-bottom-color:rgba(184,148,69,.14)}
+.hero{background:radial-gradient(circle at 50% 35%,#3a382e 0,#171612 58%,#100f0d 100%)}
+.hero-map,.reserve-pattern{opacity:.13;background-image:radial-gradient(circle at 20% 20%,transparent 0 40%,rgba(184,148,69,.28) 40.2% 40.5%,transparent 40.7%),repeating-linear-gradient(35deg,transparent 0 90px,rgba(184,148,69,.08) 91px 92px)}
+.hero:before,.hero:after{border-color:var(--line)}
+.launch-bar{background:var(--gold);color:#17150f}
+.values{background:#24231e}
+.menu-preview{background:#1b1a16}
+.dish{background:#292821}
+.menu-panel{background:#24231e}
+.gallery{background:#1b1a16}
+.reserve{background:#171612}
+.footer{background:#100f0d}
+.footer-brand strong{color:var(--gold)}
+.private-dining{background:#24231e}
+
+/* Keep the botanical green as a quiet Kerala reference rather than the dominant brand colour. */
+.green-accent{color:#53634d}
+.button-gold{color:#17150f}
+.button-light:hover{color:#171612}
+.nav a:hover,.nav a.active{color:var(--gold)}
+
 @media(max-width:800px){
   .private-grid{grid-template-columns:1fr;gap:45px}
   .private-grid h2{font-size:clamp(46px,13vw,68px)}
