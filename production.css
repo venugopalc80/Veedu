@@ -35,12 +35,21 @@ body{background:var(--green)}
 .footer{background:#100f0d}
 .footer-brand strong{color:var(--gold)}
 .private-dining{background:#24231e}
-
-/* Keep the botanical green as a quiet Kerala reference rather than the dominant brand colour. */
 .green-accent{color:#53634d}
 .button-gold{color:#17150f}
 .button-light:hover{color:#171612}
 .nav a:hover,.nav a.active{color:var(--gold)}
+
+/* Premium typography and hero rhythm */
+.hero-copy{max-width:820px}
+.hero-mark{font-size:76px;letter-spacing:.04em;margin:8px 0 -8px}
+.hero h1{font-weight:500;letter-spacing:.045em;text-shadow:0 10px 45px rgba(0,0,0,.16)}
+.hero-kicker{font-size:29px;letter-spacing:.01em}
+.hero-intro{font-size:15.5px;line-height:1.8;color:#d6d2c8}
+.hero-actions{margin-top:38px}
+.button{letter-spacing:.17em}
+.brand-name{letter-spacing:.2em}
+.section-label,.eyebrow{letter-spacing:.27em}
 
 @media(max-width:800px){
   .private-grid{grid-template-columns:1fr;gap:45px}
@@ -50,6 +59,10 @@ body{background:var(--green)}
   .launch-bar p{line-height:1.5}
   .hero{min-height:92svh}
   .hero-copy{padding-bottom:100px}
+  .hero-mark{font-size:58px}
+  .hero h1{letter-spacing:.025em}
+  .hero-kicker{font-size:24px}
+  .hero-intro{font-size:14px;line-height:1.7}
   .footer-brand{align-items:flex-start;flex-wrap:wrap}
 }
 @media(max-width:420px){
